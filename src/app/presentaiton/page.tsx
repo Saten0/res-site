@@ -12,6 +12,10 @@ export default function PresentationsPage() {
             <p className="font-semibold">Oral: Simulating stochastic process using dynamical low-rank approximation in matrix product state representation</p>
             <p>2025/07 — Tensor Network 2025</p>
           </li>
+          <li>
+            <p className="font-semibold">Poster: MPS表現における動的低ランク近似のグラウバーダイナミクスへの応用</p>
+            <p>2025/04 — 物性研究所スパコン共同利用・CCMS合同研究会</p>
+          </li>
         </ul>
       </div>
     </main>
