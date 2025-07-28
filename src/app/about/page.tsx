@@ -21,9 +21,14 @@ export default function AboutPage() {
           <h2 className="text-2xl font-semibold mb-4">Contact</h2>
           <ul className="list-disc list-inside text-gray-700">
             <li>GitHub: <a href="https://github.com/Saten0" className="text-blue-500 underline">@Saten0</a></li>
-            <li>Email: mail@saten-res.com</li>
+            <li>
+                Email:
+                <a href="mailto:mail@saten-res.com" className="text-blue-500 underline">mail@saten-res.com</a>
+            </li>
           </ul>
+          
         </div>
+        
       </main>
     );
   }
