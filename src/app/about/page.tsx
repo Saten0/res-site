@@ -21,6 +21,7 @@ export default function AboutPage() {
           </ul>
           <h2 className="text-2xl font-semibold mb-4">Contact</h2>
           <ul className="list-disc list-inside text-gray-700">
+            <li>ご気軽にご連絡ください</li>
             <li>GitHub: <a href="https://github.com/Saten0" className="text-blue-500 underline">@Saten0</a></li>
             <li>
                 Email:
