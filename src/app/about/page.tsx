@@ -9,6 +9,7 @@ export default function AboutPage() {
           <ul className="list-disc list-inside text-gray-700 mb-6">
             <li>名前 : 皆川 諒</li>
             <li>所属 : 京都大学大学院 情報学研究科 非線形物理学講座 理論神経科学・非平衡数理グループ</li>
+            <li>学士(工学)</li>
             <li>研究テーマ: テンソルネットワークと動的低ランク近似</li>
             <li>使用言語: Python</li>
           </ul>
