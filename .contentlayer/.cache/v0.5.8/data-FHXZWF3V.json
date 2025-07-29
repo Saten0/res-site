@@ -1,0 +1,28 @@
+{
+  "cacheItemsMap": {
+    "blog/test.mdx": {
+      "document": {
+        "title": "テスト記事",
+        "date": "2025-07-31T15:00:00.000Z",
+        "draft": false,
+        "body": {
+          "raw": "\r\n# a\r\n## aaa\r\n\r\n本文テスト $$ f(s)=s $$",
+          "code": "var Component=(()=>{var d=Object.create;var m=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var N=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(n,a)=>()=>(a||n((a={exports:{}}).exports,a),a.exports),u=(n,a)=>{for(var s in a)m(n,s,{get:a[s],enumerable:!0})},c=(n,a,s,i)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of x(a))!g.call(n,t)&&t!==s&&m(n,t,{get:()=>a[t],enumerable:!(i=p(a,t))||i.enumerable});return n};var w=(n,a,s)=>(s=n!=null?d(N(n)):{},c(a||!n||!n.__esModule?m(s,\"default\",{value:n,enumerable:!0}):s,n)),y=n=>c(m({},\"__esModule\",{value:!0}),n);var l=f((k,r)=>{r.exports=_jsx_runtime});var M={};u(M,{default:()=>o,frontmatter:()=>_});var e=w(l()),_={title:\"\\u30C6\\u30B9\\u30C8\\u8A18\\u4E8B\",date:\"2025-08-01\"};function h(n){let a={a:\"a\",annotation:\"annotation\",h1:\"h1\",h2:\"h2\",math:\"math\",mi:\"mi\",mo:\"mo\",mrow:\"mrow\",p:\"p\",semantics:\"semantics\",span:\"span\",...n.components};return(0,e.jsxs)(e.Fragment,{children:[(0,e.jsxs)(a.h1,{id:\"a\",children:[(0,e.jsx)(a.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#a\",children:(0,e.jsx)(a.span,{className:\"icon icon-link\"})}),\"a\"]}),`\n`,(0,e.jsxs)(a.h2,{id:\"aaa\",children:[(0,e.jsx)(a.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#aaa\",children:(0,e.jsx)(a.span,{className:\"icon icon-link\"})}),\"aaa\"]}),`\n`,(0,e.jsxs)(a.p,{children:[\"\\u672C\\u6587\\u30C6\\u30B9\\u30C8 \",(0,e.jsxs)(a.span,{className:\"katex\",children:[(0,e.jsx)(a.span,{className:\"katex-mathml\",children:(0,e.jsx)(a.math,{xmlns:\"http://www.w3.org/1998/Math/MathML\",children:(0,e.jsxs)(a.semantics,{children:[(0,e.jsxs)(a.mrow,{children:[(0,e.jsx)(a.mi,{children:\"f\"}),(0,e.jsx)(a.mo,{stretchy:\"false\",children:\"(\"}),(0,e.jsx)(a.mi,{children:\"s\"}),(0,e.jsx)(a.mo,{stretchy:\"false\",children:\")\"}),(0,e.jsx)(a.mo,{children:\"=\"}),(0,e.jsx)(a.mi,{children:\"s\"})]}),(0,e.jsx)(a.annotation,{encoding:\"application/x-tex\",children:\"f(s)=s\"})]})})}),(0,e.jsxs)(a.span,{className:\"katex-html\",\"aria-hidden\":\"true\",children:[(0,e.jsxs)(a.span,{className:\"base\",children:[(0,e.jsx)(a.span,{className:\"strut\",style:{height:\"1em\",verticalAlign:\"-0.25em\"}}),(0,e.jsx)(a.span,{className:\"mord mathnormal\",style:{marginRight:\"0.10764em\"},children:\"f\"}),(0,e.jsx)(a.span,{className:\"mopen\",children:\"(\"}),(0,e.jsx)(a.span,{className:\"mord mathnormal\",children:\"s\"}),(0,e.jsx)(a.span,{className:\"mclose\",children:\")\"}),(0,e.jsx)(a.span,{className:\"mspace\",style:{marginRight:\"0.2778em\"}}),(0,e.jsx)(a.span,{className:\"mrel\",children:\"=\"}),(0,e.jsx)(a.span,{className:\"mspace\",style:{marginRight:\"0.2778em\"}})]}),(0,e.jsxs)(a.span,{className:\"base\",children:[(0,e.jsx)(a.span,{className:\"strut\",style:{height:\"0.4306em\"}}),(0,e.jsx)(a.span,{className:\"mord mathnormal\",children:\"s\"})]})]})]})]})]})}function o(n={}){let{wrapper:a}=n.components||{};return a?(0,e.jsx)(a,{...n,children:(0,e.jsx)(h,{...n})}):h(n)}return y(M);})();\n;return Component;"
+        },
+        "_id": "blog/test.mdx",
+        "_raw": {
+          "sourceFilePath": "blog/test.mdx",
+          "sourceFileName": "test.mdx",
+          "sourceFileDir": "blog",
+          "contentType": "mdx",
+          "flattenedPath": "blog/test"
+        },
+        "type": "Post",
+        "url": "/blog/blog/test"
+      },
+      "documentHash": "1753771347944",
+      "hasWarnings": false,
+      "documentTypeName": "Post"
+    }
+  }
+}

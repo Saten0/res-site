@@ -2,6 +2,8 @@
 import { defineDocumentType, makeSource } from "contentlayer2/source-files";
 import remarkMath from "remark-math";
 import rehypeKatex from "rehype-katex";
+import rehypeSlug from "rehype-slug";
+import rehypeAutolinkHeadings from "rehype-autolink-headings";
 var Post = defineDocumentType(() => ({
   name: "Post",
   filePathPattern: `**/*.mdx`,
@@ -22,11 +24,11 @@ var contentlayer_config_default = makeSource({
   documentTypes: [Post],
   mdx: {
     remarkPlugins: [remarkMath],
-    rehypePlugins: [rehypeKatex]
+    rehypePlugins: [rehypeSlug, rehypeKatex, [rehypeAutolinkHeadings, { behavior: "append" }]]
   }
 });
 export {
   Post,
   contentlayer_config_default as default
 };
-//# sourceMappingURL=compiled-contentlayer-config-FUWILHG6.mjs.map
+//# sourceMappingURL=compiled-contentlayer-config-JUOOSTMI.mjs.map
