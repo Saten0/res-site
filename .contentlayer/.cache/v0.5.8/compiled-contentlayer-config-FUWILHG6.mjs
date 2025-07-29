@@ -20,10 +20,13 @@ var contentlayer_config_default = makeSource({
   contentDirPath: "src/content",
   // ← MDX を置いたフォルダ
   documentTypes: [Post],
-  mdx: { remarkPlugins: [remarkMath], rehypePlugins: [rehypeKatex] }
+  mdx: {
+    remarkPlugins: [remarkMath],
+    rehypePlugins: [rehypeKatex]
+  }
 });
 export {
   Post,
   contentlayer_config_default as default
 };
-//# sourceMappingURL=compiled-contentlayer-config-YNGFAK77.mjs.map
+//# sourceMappingURL=compiled-contentlayer-config-FUWILHG6.mjs.map

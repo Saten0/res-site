@@ -20,5 +20,8 @@ export const Post = defineDocumentType(() => ({
 export default makeSource({
   contentDirPath: 'src/content',      // ← MDX を置いたフォルダ
   documentTypes: [Post],
-  mdx: { remarkPlugins: [remarkMath], rehypePlugins: [rehypeKatex] },
+  mdx: { 
+    remarkPlugins: [remarkMath], 
+    rehypePlugins: [rehypeKatex] 
+  },
 })
