@@ -1,0 +1,24 @@
+{
+  "cacheItemsMap": {
+    "blog/test.md": {
+      "document": {
+        "title": "テスト記事",
+        "date": "2025-08-01T00:00:00.000Z",
+        "draft": false,
+        "_id": "blog/test.md",
+        "_raw": {
+          "sourceFilePath": "blog/test.md",
+          "sourceFileName": "test.md",
+          "sourceFileDir": "blog",
+          "contentType": "markdown",
+          "flattenedPath": "blog/test"
+        },
+        "type": "Post",
+        "url": "/blog/blog/test"
+      },
+      "documentHash": "1753772089000",
+      "hasWarnings": false,
+      "documentTypeName": "Post"
+    }
+  }
+}

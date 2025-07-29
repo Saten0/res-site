@@ -6,8 +6,8 @@ import rehypeAutolinkHeadings from 'rehype-autolink-headings'
 // 投稿 (=MDX) の型定義
 export const Post = defineDocumentType(() => ({
   name: 'Post',
-  filePathPattern: `**/*.mdx`,        // src/content 配下を全部対象
-  contentType: 'mdx',
+  filePathPattern: `**/*.md`,        // src/content 配下を全部対象
+  contentType: 'markdown',
   fields: {
     title: { type: 'string', required: true },
     date : { type: 'date',   required: true },
@@ -21,7 +21,7 @@ export const Post = defineDocumentType(() => ({
 export default makeSource({
   contentDirPath: 'src/content',      // ← MDX を置いたフォルダ
   documentTypes: [Post],
-  mdx: { 
+  markdown: { 
 
     remarkPlugins: [remarkMath], 
     rehypePlugins: [rehypeSlug,rehypeKatex, [rehypeAutolinkHeadings, { behavior: 'append' }],] 

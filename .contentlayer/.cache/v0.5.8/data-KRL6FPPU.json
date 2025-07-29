@@ -1,0 +1,28 @@
+{
+  "cacheItemsMap": {
+    "blog/test.md": {
+      "document": {
+        "title": "テスト記事",
+        "date": "2025-08-01T00:00:00.000Z",
+        "draft": false,
+        "body": {
+          "raw": "\n# a\n## aaa\n\n本文テスト $$ f(s)=s $$",
+          "html": "<h1>a</h1>\n<h2>aaa</h2>\n<p>本文テスト $$ f(s)=s $$</p>"
+        },
+        "_id": "blog/test.md",
+        "_raw": {
+          "sourceFilePath": "blog/test.md",
+          "sourceFileName": "test.md",
+          "sourceFileDir": "blog",
+          "contentType": "markdown",
+          "flattenedPath": "blog/test"
+        },
+        "type": "Post",
+        "url": "/blog/blog/test"
+      },
+      "documentHash": "1753772089000",
+      "hasWarnings": false,
+      "documentTypeName": "Post"
+    }
+  }
+}

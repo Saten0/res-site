@@ -1,0 +1,28 @@
+{
+  "cacheItemsMap": {
+    "blog/test.md": {
+      "document": {
+        "title": "テスト記事",
+        "date": "2025-08-01T00:00:00.000Z",
+        "draft": false,
+        "body": {
+          "raw": "\n# a\n## aaa\n\n本文テスト $$ f(s)=s $$",
+          "html": "<h1 id=\"a\">a<a aria-hidden=\"true\" tabindex=\"-1\" href=\"#a\"><span class=\"icon icon-link\"></span></a></h1>\n<h2 id=\"aaa\">aaa<a aria-hidden=\"true\" tabindex=\"-1\" href=\"#aaa\"><span class=\"icon icon-link\"></span></a></h2>\n<p>本文テスト <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>f</mi><mo stretchy=\"false\">(</mo><mi>s</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>s</mi></mrow><annotation encoding=\"application/x-tex\">f(s)=s</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.10764em;\">f</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\">s</span><span class=\"mclose\">)</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\">s</span></span></span></span></p>"
+        },
+        "_id": "blog/test.md",
+        "_raw": {
+          "sourceFilePath": "blog/test.md",
+          "sourceFileName": "test.md",
+          "sourceFileDir": "blog",
+          "contentType": "markdown",
+          "flattenedPath": "blog/test"
+        },
+        "type": "Post",
+        "url": "/blog/blog/test"
+      },
+      "documentHash": "1753772089000",
+      "hasWarnings": false,
+      "documentTypeName": "Post"
+    }
+  }
+}

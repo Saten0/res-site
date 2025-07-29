@@ -1,7 +1,7 @@
 import { allPosts } from '.contentlayer/generated';
 import { notFound } from 'next/navigation';
 import { use } from 'react';
-import { useMDXComponent } from 'next-contentlayer2/hooks';
+import React from 'react';
 
 export function generateStaticParams() {
   return allPosts.map(p => ({ slug: p._raw.flattenedPath.split('/') }));
@@ -20,7 +20,6 @@ export default function BlogPost({ params }: { params: ParamsPromise }) {
     notFound();                          // ここで throw
   }
 
-  const MDXContent = useMDXComponent(post!.body.code);
 
   return (
     <article className="prose prose-neutral mx-auto px-4 py-12 lg:prose-lg">
@@ -31,7 +30,7 @@ export default function BlogPost({ params }: { params: ParamsPromise }) {
           new Date(post!.date),
         )}
       </time>
-      <MDXContent/>
+      <div dangerouslySetInnerHTML={{ __html: post.body.html }} />
     </article>
   );
 }
