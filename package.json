@@ -1,5 +1,6 @@
 {
   "name": "res-site",
+  "dev": "next dev",
   "description": "Build a full-stack web application with Next.js.",
   "cloudflare": {
     "label": "Next.js Framework Starter",
