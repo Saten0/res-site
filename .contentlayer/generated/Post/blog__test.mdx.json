@@ -1,0 +1,19 @@
+{
+  "title": "テスト記事",
+  "date": "2025-07-31T15:00:00.000Z",
+  "draft": false,
+  "body": {
+    "raw": "\r\n# 見出し\r\n\r\n本文テスト\r\n\r\n# aaa",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var _=Object.getPrototypeOf,p=Object.prototype.hasOwnProperty;var f=(n,t)=>()=>(t||n((t={exports:{}}).exports,t),t.exports),j=(n,t)=>{for(var r in t)a(n,r,{get:t[r],enumerable:!0})},s=(n,t,r,c)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of u(t))!p.call(n,o)&&o!==r&&a(n,o,{get:()=>t[o],enumerable:!(c=l(t,o))||c.enumerable});return n};var M=(n,t,r)=>(r=n!=null?d(_(n)):{},s(t||!n||!n.__esModule?a(r,\"default\",{value:n,enumerable:!0}):r,n)),g=n=>s(a({},\"__esModule\",{value:!0}),n);var h=f((X,i)=>{i.exports=_jsx_runtime});var D={};j(D,{default:()=>x,frontmatter:()=>C});var e=M(h()),C={title:\"\\u30C6\\u30B9\\u30C8\\u8A18\\u4E8B\",date:\"2025-08-01\"};function m(n){let t={h1:\"h1\",p:\"p\",...n.components};return(0,e.jsxs)(e.Fragment,{children:[(0,e.jsx)(t.h1,{children:\"\\u898B\\u51FA\\u3057\"}),`\n`,(0,e.jsx)(t.p,{children:\"\\u672C\\u6587\\u30C6\\u30B9\\u30C8\"}),`\n`,(0,e.jsx)(t.h1,{children:\"aaa\"})]})}function x(n={}){let{wrapper:t}=n.components||{};return t?(0,e.jsx)(t,{...n,children:(0,e.jsx)(m,{...n})}):m(n)}return g(D);})();\n;return Component;"
+  },
+  "_id": "blog/test.mdx",
+  "_raw": {
+    "sourceFilePath": "blog/test.mdx",
+    "sourceFileName": "test.mdx",
+    "sourceFileDir": "blog",
+    "contentType": "mdx",
+    "flattenedPath": "blog/test"
+  },
+  "type": "Post",
+  "url": "/blog/blog/test"
+}

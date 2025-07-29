@@ -1,11 +1,26 @@
-import type { NextConfig } from "next";
+import createMDX from '@next/mdx'
+import remarkMath from 'remark-math'
+import rehypeKatex from 'rehype-katex'
+import { withContentlayer } from 'next-contentlayer2'
+import { initOpenNextCloudflareForDev } from '@opennextjs/cloudflare'
 
-const nextConfig: NextConfig = {
-  /* config options here */
-};
+/* ① MDX → NextConfig ラッパーを生成 */
+const withMDX = createMDX({
+  extension: /\.mdx?$/,
+  options: { remarkPlugins: [remarkMath], rehypePlugins: [rehypeKatex] }
+})
 
-export default nextConfig;
+/* ② 素の Next 設定（Cloudflare なら images.unoptimized 推奨） */
+const nextConfig = {
+  pageExtensions: ['js','jsx','ts','tsx','md','mdx'],
+  images: { unoptimized: true },   // Workers でサイズ削減
+  // experimental: { typedRoutes: true },  // 追加したいオプション
+}
 
-// added by create cloudflare to enable calling `getCloudflareContext()` in `next dev`
-import { initOpenNextCloudflareForDev } from "@opennextjs/cloudflare";
-initOpenNextCloudflareForDev();
+/* ③ export default で 2段ラップ */
+export default withContentlayer(
+  withMDX(nextConfig)
+)
+
+/* ④ dev 用 Cloudflare フック */
+initOpenNextCloudflareForDev()
