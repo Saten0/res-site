@@ -17,7 +17,7 @@ export default function BlogPost({ params }: { params: ParamsPromise }) {
   const post = allPosts.find(p => p._raw.flattenedPath === slugStr);
 
   if (!post) {
-    notFound();                          // ここで throw
+    notFound();                   
   }
 
 
